@@ -1,11 +1,9 @@
-import MaxWidth from "@/components/MaxWidth";
+import Recharts from "@/components/sections/Recharts";
 
 export default function Home() {
   return (
     <>
-      <section>Section</section>
-      <section>Section</section>
-      <section>Section</section>
+      <Recharts />
     </>
   );
 }
