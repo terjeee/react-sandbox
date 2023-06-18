@@ -25,7 +25,7 @@ export default function Recharts() {
 
   return (
     <ResponsiveContainer width="100%" height={500}>
-      <BarChart data={data} margin={{ top: 10, right: 20, bottom: 10, left: 20 }}>
+      <BarChart data={data} margin={{ top: 10, right: 20, bottom: 10, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" style={{ fontSize: "0.75rem" }} />
         <YAxis />
