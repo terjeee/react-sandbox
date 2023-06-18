@@ -12,10 +12,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <MaxWidth width="max-w-screen-lg">
-          <nav className="flex justify-center py-6">
+          <nav className="flex justify-center py-8">
             <SvgReact height="50px" width="50px" />
           </nav>
-          <main className="flex flex-col gap-4 py-4">{children}</main>
+          {children}
           <footer className="flex justify-center py-6">:)</footer>
         </MaxWidth>
       </body>
